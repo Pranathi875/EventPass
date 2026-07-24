@@ -13,7 +13,7 @@ architecture with Jetpack Compose, Room, CameraX, and ML Kit.
 | **Login** | Local username/password login with validation (no backend). Demo creds: `admin` / `admin123`. |
 | **Dashboard** | Live counts: total registered, checked in, and remaining. Buttons to scan, view/add attendees, and see stats. |
 | **QR Scanner** | CameraX preview + ML Kit barcode scanning. On a successful scan, looks the attendee up in Room and marks them checked in with a timestamp. Handles camera permission and shows a result dialog (success / already checked in / not found). |
-| **Attendee list** | All attendees with check-in status + time, and a search bar to filter by name. |
+| **Attendee list** | All attendees with check-in status, and a search bar to filter by name. |
 | **Add attendee** | Form (name, email, ticket type) that saves the attendee and displays a generated QR code (ZXing). |
 | **Stats** | Check-in progress summary with a progress bar and a numeric breakdown. |
 
