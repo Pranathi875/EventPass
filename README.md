@@ -1,7 +1,7 @@
 # EventPass — Smart Event Check-in System
 
 EventPass is an Android app for checking attendees into an event by scanning their
-QR codes. It's built as a college project to demonstrate a clean **MVVM**
+QR codes. It's built to demonstrate a clean **MVVM**
 architecture with Jetpack Compose, Room, CameraX, and ML Kit.
 
 ---
